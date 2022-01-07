@@ -7,7 +7,9 @@ class GreatestCommonDivisor {
         System.out.println(result);
     }
 
-    // Question 3 - GCD
+    /*
+        How to find GCD (Greatest Common Divisor) of two numbers usin recursion.
+     */
     public int gcd(int a, int b) {
         if (a < 0 || b < 0) {
             return -1;

@@ -7,7 +7,9 @@ class DecimalToBinary {
         System.out.println(result);
     }
 
-    // Question 4 - Decimal to Binary
+    /*
+        How to convert a number from Decimal to Binary using recursion.
+     */
     public int decimalToBinary(int n) {
         if (n == 0) {
             return 0;

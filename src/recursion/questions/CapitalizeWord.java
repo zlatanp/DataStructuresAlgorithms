@@ -7,8 +7,10 @@ public class CapitalizeWord {
         System.out.println(result);
     }
 
+    /*
+        Implement a function that capitalizes each word in String.
+     */
     public static String capitalizeWord(String str) {
-
         if (str.isEmpty()) {
             return str;
         }

@@ -2,15 +2,18 @@ package array.questions;
 
 class Permutation {
     public static void main(String[] args) {
-        Permutation mn = new Permutation();
+        Permutation main = new Permutation();
         int[] array1 = {1, 2, 3, 4, 5};
         int[] array2 = {5, 4, 3, 2, 1, 0};
 
-        boolean result = mn.permutation(array1, array2);
+        boolean result = main.permutation(array1, array2);
         System.out.println(result);
     }
 
-    // Permutation
+    /*
+        Write a program to check if two given integer arrays are
+        permutation of each other.
+     */
     public boolean permutation(int[] array1, int[] array2) {
         if (array1.length != array2.length) {
             return false;

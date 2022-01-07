@@ -7,6 +7,10 @@ public class ProductOfArray {
         System.out.println(result);
     }
 
+    /*
+        Write a function called productOfArray which takes in an array of numbers
+        and returns the product of them all.
+     */
     public int productofArray(int A[], int N) {
         if (N <= 0)
             return 1;

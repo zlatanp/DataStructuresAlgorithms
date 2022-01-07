@@ -4,13 +4,16 @@ import java.util.Arrays;
 
 class RotateMatrix {
     public static void main(String[] args) {
-        RotateMatrix mn = new RotateMatrix();
+        RotateMatrix main = new RotateMatrix();
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
-        mn.rotateMatrix(matrix);
+        main.rotateMatrix(matrix);
         System.out.println(Arrays.deepToString(matrix));
     }
 
+    /*
+        Given an image represented by an NxN matrix, write a method to rotate image by 90 degrees.
+     */
     public boolean rotateMatrix(int[][] matrix) {
         if (matrix.length == 0 || matrix.length != matrix[0].length)
             return false;

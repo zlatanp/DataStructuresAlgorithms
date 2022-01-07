@@ -7,6 +7,11 @@ public class IsPalindrome {
         System.out.println(result);
     }
 
+    /*
+        Write a recursive function called isPalindrome which returns true if the string
+        passed to it is a palindrome (reads the same forward and backward).
+        Otherwise it returns false.
+     */
     public boolean isPalindrome(String s) {
         // if length is 0 or 1 then String is palindrome
         if (s.length() == 0 || s.length() == 1)

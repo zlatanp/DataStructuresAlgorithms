@@ -23,7 +23,6 @@ public class SingleDimensionArray {
         }
     }
 
-    // Array Traversal
     public void traverseArray() {
         try {
             for (int i = 0; i < arr.length; i++) {
@@ -34,7 +33,6 @@ public class SingleDimensionArray {
         }
     }
 
-    //Search for an element in the given Array
     public void searchInArray(int valueToSearch) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == valueToSearch) {
@@ -45,7 +43,6 @@ public class SingleDimensionArray {
         System.out.println(valueToSearch + " is not found");
     }
 
-    // Delete value from Array
     public void deleteValue(int valueToDeleteIndex) {
         try {
             arr[valueToDeleteIndex] = Integer.MIN_VALUE;

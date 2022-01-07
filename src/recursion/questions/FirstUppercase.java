@@ -7,6 +7,9 @@ public class FirstUppercase {
         System.out.println(result);
     }
 
+    /*
+        Given a string find its first uppercase letter.
+     */
     public static char first(String str) {
         if (str.isEmpty()) {
             return ' ';

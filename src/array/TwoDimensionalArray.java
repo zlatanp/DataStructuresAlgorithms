@@ -3,7 +3,6 @@ package array;
 public class TwoDimensionalArray {
     int arr[][] = null;
 
-    // Constructor
     public TwoDimensionalArray(int numberOfRows, int numberOfColumns) {
         this.arr = new int[numberOfRows][numberOfColumns];
         for (int row = 0; row < arr.length; row++) {
@@ -13,7 +12,6 @@ public class TwoDimensionalArray {
         }
     }
 
-    // Inserting value in the Array
     public void insertValueInTheArray(int row, int col, int value) {
         try {
             if (arr[row][col] == Integer.MIN_VALUE) {
@@ -28,7 +26,6 @@ public class TwoDimensionalArray {
         }
     }
 
-    // Accessing cell value from given array
     public void accessCell(int row, int col) {
         System.out.println("\nAccessing Row#" + row + ", Col#" + col);
         try {
@@ -39,7 +36,6 @@ public class TwoDimensionalArray {
         }
     }
 
-    // Traverse 2D array
     public void traverse2DArray() {
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr[0].length; col++) {
@@ -49,7 +45,6 @@ public class TwoDimensionalArray {
         }
     }
 
-    // Searching a single value from the Array
     public void searchingValue(int value) {
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr[0].length; col++) {
@@ -62,7 +57,6 @@ public class TwoDimensionalArray {
         System.out.println("Value is not found");
     }
 
-    // Deleting a value from Array
     public void deleteValuefromArray(int row, int col) {
         try {
             System.out.println("Successfully deleted: " + arr[row][col]);

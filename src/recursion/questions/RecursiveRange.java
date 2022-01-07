@@ -7,6 +7,10 @@ public class RecursiveRange {
         System.out.println(result);
     }
 
+    /*
+        Write a function called recursiveRang which accepts a number
+        and adds up all the numbers from - to the number passed to the function.
+     */
     public int recursiveRange(int num) {
         if (num <= 0) {
             return 0;

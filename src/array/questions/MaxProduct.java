@@ -2,14 +2,17 @@ package array.questions;
 
 class MaxProduct {
     public static void main(String[] args) {
-        MaxProduct mn = new MaxProduct();
+        MaxProduct main = new MaxProduct();
         int[] intArray = {10, 60, 30, 40, 50};
 
-        String pairs = mn.maxProduct(intArray);
+        String pairs = main.maxProduct(intArray);
         System.out.println(pairs);
     }
 
-    // Max Product
+    /*
+        How to find maximum product of two integers in the array
+        where all elements are positive.
+     */
     public String maxProduct(int[] intArray) {
         int maxProduct = 0;
         String pairs = "";

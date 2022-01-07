@@ -13,6 +13,9 @@ class MissingNumber {
         main.missingNumber(intArray);
     }
 
+    /*
+        Write a function to find the missing number in a given integer array.
+     */
     public void missingNumber(int[] intArray) {
         int sum1 = 0;
         int sum2 = 0;
@@ -22,5 +25,23 @@ class MissingNumber {
         sum2 = 100 * (100 + 1) / 2;
         int difference = sum2 - sum1;
         System.out.println("Missing Number is " + difference);
+    }
+
+    /*
+        Write a function to find the missing number in a given integer array of 1 to 100.
+     */
+    public int missingNumber(int[] arr, int totalCount) {
+        int expectedSum = 0;
+        int actualSum = 0;
+        for (int i = 1; i <= totalCount; ++i) {
+            expectedSum += i;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            actualSum += arr[i];
+
+        }
+        System.out.println(expectedSum);
+
+        return expectedSum - actualSum;
     }
 }
