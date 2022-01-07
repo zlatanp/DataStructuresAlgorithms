@@ -7,11 +7,10 @@ public class ReverseString {
         System.out.println(result);
     }
 
-    public String reverse(String str)
-    {
+    public String reverse(String str) {
         if (str.isEmpty())
             return str;
-        //Calling Function Recursively
+
         return reverse(str.substring(1)) + str.charAt(0);
     }
 }
