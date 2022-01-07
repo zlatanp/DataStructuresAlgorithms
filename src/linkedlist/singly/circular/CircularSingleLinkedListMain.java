@@ -1,4 +1,4 @@
-package linkedlist.singly.circural;
+package linkedlist.singly.circular;
 
 class CircularSingleLinkedListMain {
     public static void main(String[] args) {

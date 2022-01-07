@@ -1,4 +1,4 @@
-package linkedlist.doubly.circural;
+package linkedlist.doubly.circular;
 
 public class CircularDoubleLinkedList {
     public DoubleNode head;

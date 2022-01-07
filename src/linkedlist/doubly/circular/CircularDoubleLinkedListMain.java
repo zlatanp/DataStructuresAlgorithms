@@ -1,4 +1,4 @@
-package linkedlist.doubly.circural;
+package linkedlist.doubly.circular;
 
 class CircularDoubleLinkedListMain {
     public static void main(String[] args) {
