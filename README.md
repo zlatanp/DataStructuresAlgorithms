@@ -33,3 +33,6 @@
 - Graph
   - Adjacency List
   - Adjacency Matrix
+  - Topological Sort
+  - Single Source Shortest Path Problem
+  - Dijkstra
