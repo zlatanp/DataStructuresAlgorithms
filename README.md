@@ -11,3 +11,7 @@
   - Circular Queue
 - Tree/Binary Tree
   - Binary Search Tree
+  - Self Balancing (AVL) Tree
+  - Binary Heap
+  - Trie
+- Hashing
