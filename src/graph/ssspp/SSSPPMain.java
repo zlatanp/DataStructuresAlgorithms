@@ -11,15 +11,15 @@ public class SSSPPMain {
         /*
             Single Source Shortest Path Problem
          */
-        ArrayList<GraphNode> noodes = new ArrayList<>();
-        noodes.add(new GraphNode("A", 0));
-        noodes.add(new GraphNode("B", 1));
-        noodes.add(new GraphNode("C", 2));
-        noodes.add(new GraphNode("D", 3));
-        noodes.add(new GraphNode("E", 4));
-        noodes.add(new GraphNode("F", 5));
-        noodes.add(new GraphNode("G", 6));
-        Graph graph = new Graph(noodes);
+        ArrayList<GraphNode> nodes = new ArrayList<>();
+        nodes.add(new GraphNode("A", 0));
+        nodes.add(new GraphNode("B", 1));
+        nodes.add(new GraphNode("C", 2));
+        nodes.add(new GraphNode("D", 3));
+        nodes.add(new GraphNode("E", 4));
+        nodes.add(new GraphNode("F", 5));
+        nodes.add(new GraphNode("G", 6));
+        Graph graph = new Graph(nodes);
         graph.addDirectedEdge(0, 1);
         graph.addDirectedEdge(0, 2);
         graph.addDirectedEdge(1, 3);
@@ -30,7 +30,7 @@ public class SSSPPMain {
         graph.addDirectedEdge(4, 5);
         graph.addDirectedEdge(5, 6);
         System.out.println(graph.toString());
-        graph.BFSForSSSPP(noodes.get(0));
+        graph.BFSForSSSPP(nodes.get(0));
 
     }
 }
