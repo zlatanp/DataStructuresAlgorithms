@@ -30,3 +30,6 @@
 - Searching
   - Linear
   - Binary
+- Graph
+  - Adjacency List
+  - Adjacency Matrix
